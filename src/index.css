@@ -64,6 +64,26 @@ h1 {
   color: rgb(8, 22, 80);
 }
 
+.temperature {
+  display: flex;
+}
+
+.emoji {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.number {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.unit {
+  margin-top: 20px;
+  font-size: 38px;
+}
+
 footer {
   border-top: 1px solid rgba(0, 119, 255, 0.5);
   padding: 30px 0 0 0;
