@@ -38,10 +38,36 @@ header {
   color: white;
 }
 
+main {
+  padding: 30px 0;
+}
+
+.weather-app {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-details {
+  font-size: 16px;
+  color: rgba(8, 22, 80, 0.7);
+  line-height: 20px;
+  font-weight: 500px;
+}
+
+.weather-details strong {
+  color: rgb(8, 22, 80);
+}
+
 footer {
   border-top: 1px solid rgba(0, 119, 255, 0.5);
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 13px;
-  color: rgba(8, 22, 80, 0.7)
+  color: rgba(8, 22, 80, 0.7);
 }
