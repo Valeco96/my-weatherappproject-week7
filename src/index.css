@@ -20,7 +20,7 @@ header {
 }
 
 .search-bar {
-  background-color: rgba(0, 119, 255, 0.2);
+  background-color: rgba(0, 119, 255, 0.1);
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -29,7 +29,7 @@ header {
 }
 
 .search-button {
-  background: rgba(8, 22, 80, 0.7);
+  background: rgb(8, 22, 80);
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -51,12 +51,13 @@ h1 {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
+  color: rgb(8, 22, 80);
 }
 
 .weather-details {
   font-size: 16px;
   color: rgba(8, 22, 80, 0.7);
-  line-height: 20px;
+  line-height: 25px;
   font-weight: 500px;
 }
 
@@ -70,18 +71,20 @@ h1 {
 
 .emoji {
   font-size: 44px;
-  margin-top: 22px;
+  margin-top: 24px;
 }
 
 .number {
-  font-size: 88px;
+  font-size: 86px;
   margin-left: 10px;
   font-weight: bold;
+  color: rgb(8, 22, 80);
 }
 
 .unit {
   margin-top: 20px;
   font-size: 38px;
+  color: rgb(8, 22, 80);
 }
 
 footer {
