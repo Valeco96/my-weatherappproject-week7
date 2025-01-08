@@ -1,5 +1,7 @@
 body {
-  background-color: rgba(0, 119, 255, 0.4);
+  background-image: url(https://images.pexels.com/photos/133953/pexels-photo-133953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Parkinsans", serif;
   font-optical-sizing: auto;
   font-style: normal;
