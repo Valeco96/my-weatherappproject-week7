@@ -2,9 +2,11 @@ function insertMeteo(response) {
   let temperatureElement = document.querySelector("#temperature-input");
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#city");
+  let conditionsElement = document.querySelector("#conditions");
 
   temperatureElement.innerHTML = Math.round(temperature);
   cityElement.innerHTML = response.data.city;
+  conditionsElement.innerHTML = response.data.condition.description;
 }
 
 function searchCity(city) {
