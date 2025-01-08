@@ -3,10 +3,14 @@ function insertMeteo(response) {
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#city");
   let conditionsElement = document.querySelector("#conditions");
+  let humidityElement = document.querySelector("#humidity");
+  let windSpeedElement = document.querySelector("#wind-speed");
 
-  temperatureElement.innerHTML = Math.round(temperature);
   cityElement.innerHTML = response.data.city;
   conditionsElement.innerHTML = response.data.condition.description;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
+  temperatureElement.innerHTML = Math.round(temperature);
 }
 
 function searchCity(city) {
