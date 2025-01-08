@@ -7,7 +7,12 @@ function insertMeteo(response) {
   let windSpeedElement = document.querySelector("#wind-speed");
   let currentTime = document.querySelector("#current-time");
   let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
 
+  iconElement.innerHTML = `<img
+      src="${response.data.condition.icon_url}"
+      class="emoji"
+    />`;
   currentTime.innerHTML = formatDate(date);
   cityElement.innerHTML = response.data.city;
   conditionsElement.innerHTML = response.data.condition.description;
