@@ -89,6 +89,12 @@ h1 {
   color: rgb(8, 22, 80);
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
 .weather-forecast-date {
   text-align: center;
   color: rgba(8, 22, 80, 0.7);
