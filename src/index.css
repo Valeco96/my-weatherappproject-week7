@@ -104,10 +104,10 @@ h1 {
 }
 
 .weather-forecast-icon {
-  width: 100%;
+  width: 88px;
+  height: 88px;
   display: block;
   margin: 0 auto;
-  text-align: center;
 }
 
 .weather-forecast-temperatures {
