@@ -89,6 +89,31 @@ h1 {
   color: rgb(8, 22, 80);
 }
 
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(8, 22, 80, 0.7);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: rgb(8, 22, 80);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
 footer {
   border-top: 1px solid rgba(0, 119, 255, 0.5);
   padding: 30px 0 0 0;
